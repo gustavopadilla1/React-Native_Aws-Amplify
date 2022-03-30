@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "exporeactnativeaws",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\joseg\\Documents\\10-A\\React\\React-Native\\expo-react-native-aws\\amplify\\backend\\api\\exporeactnativeaws\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
