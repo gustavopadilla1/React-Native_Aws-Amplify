@@ -42,12 +42,12 @@ export default function ManiNavigator(){
 
 
          
-         if(route.name === "Crear"){          
+         if(route.name === "list"){          
            iconName = "ios-list"
          }else if (route.name === "Registrar") {
           iconName = "ios-add"           
          }
-         else if(route.name ==="Perfil"){
+         else if(route.name ==="profile"){
           iconName = focused
            ? "ios-information-circle"
            : "ios-information-circle-outline";
@@ -58,11 +58,11 @@ export default function ManiNavigator(){
        tabBarInactiveTintColor:"gray",
      }) }
      >
-       <Tab.Screen name='Crear' component={HomeScreen} />
+       <Tab.Screen name='list' component={HomeScreen} />
         <Tab.Screen name='Registrar' component={RegistrarScreen}/>       
 
 
-       <Tab.Screen name='Perfil'
+       <Tab.Screen name='profile'
         children={(props)=>(
           <SettingScreen {...props} onPress={()=>logout()}/>
         )}

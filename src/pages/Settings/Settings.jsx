@@ -5,6 +5,7 @@ import { styles } from "./Settings.style";
 // import { list, create, onCreate } from '../../services/todos';
 import ButtonComponet from '../../components/Button';
 import {Amplify} from "aws-amplify";
+import {Auth} from "aws-amplify";
 
 
 
@@ -16,6 +17,12 @@ async function signOut(){
   }catch(error){
     console.log(error);
   }
+}
+
+async function getUserInfo() {  
+  Auth.currentSession()
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
 }
 
     return(
@@ -35,6 +42,9 @@ async function signOut(){
           />
            */}
               <ButtonComponet title='signOut' onPress={signOut}/>
+
+              <ButtonComponet title='datos' onPress={getUserInfo}/>
+
       </View>
     );
   }

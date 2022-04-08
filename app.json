@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-react-native-aws",
-    "slug": "expo-react-native-aws",
+    "name": "expo-react-native-aws-PadillaTorres_JoseGustavo",
+    "slug": "expo-react-native-aws-padillatorres_josegustavo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/gustavopadilla1/React-Native_Aws-Amplify.git"
   }
 }

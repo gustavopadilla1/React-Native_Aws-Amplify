@@ -5,32 +5,10 @@ export const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#fff',
       alignItems: 'center',
-      justifyContent: 'center',
+      // justifyContent: 'center',
       margin:30,
+      marginHorizontal:20,    
       
-    },
-    list:{
-      flex: 1,    
-      width: 300,      
-      height:100,
-      borderColor: "black",
-      padding: 5,
-      marginVertical: 5,
-      marginHorizontal: 10,
-      borderWidth: 1,
-    },
-    Titulo:{
-      color:"red",
-      marginVertical: 5,
-      marginHorizontal: 10,
-    
-    },
-    Autor:{
-      color:"red",
-      marginVertical: 5,
-      marginHorizontal: 10,
-    },
-
-
+    },  
    
   });

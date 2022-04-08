@@ -6,18 +6,9 @@ export const styles = StyleSheet.create({
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
-    },
-    button:{
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: "green",
-      width:150,
-      height:40,
-      borderRadius:10,
-      padding:5,
-      marginTop:10,
-    },
-    text:{
-    color:"#fff",
-    },
+      margin:70,
+      marginHorizontal:30,    
+      
+    },  
+   
   });
